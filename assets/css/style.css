@@ -69,6 +69,10 @@ h2 {
 	color: #bbb;
 }
 
+.profile {
+	background: #2EC2FB;
+}
+
 .profile #wrapper {
 	padding: 100px 40px 0px;
 	max-width: 600px;
@@ -76,9 +80,9 @@ h2 {
 }
 
 .profile #header {
-	border-bottom: 1px solid #eee;
-	margin-bottom: 40px;
-	padding-bottom: 40px;
+	border-bottom: 0px solid #eee;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
 	text-align: center;
 	position: relative;
 }
@@ -94,7 +98,7 @@ h2 {
 .profile h1 {
 	font-weight: 400;
 	letter-spacing: 0px;
-	font-size: 20px;
+	font-size: 40px;
 	color: #222;
 }
 
@@ -106,6 +110,10 @@ h2 {
 	  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	  font-style: normal;
 
+}
+
+.profile a {
+	color: #798445;
 }
 
 nav.main-nav {
