@@ -1,0 +1,43 @@
+name: Coding Favorites
+description: A Coding Favorites Man
+meta_description: "Coding Favorites"
+
+aboutPage: true
+
+markdown: redcarpet
+highlighter: pygments
+
+paginate: 20
+baseurl: /
+domain_name: 'http://yukeyong.com'
+disqus: false
+disqus_shortname: ''
+
+# Details for the RSS feed generator
+url:            'http://yukeyong.com'
+author:         'Keyong Yu'
+authorTwitter:  ''
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
+
+gems: [jekyll-paginate]
