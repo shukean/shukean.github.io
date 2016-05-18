@@ -5,7 +5,7 @@ archive: true
 
 <article class="post">
     <header>
-        <h1>{{ page.title }}</h1>
+        <h1><a href="{{ site.domain_name }}">{{ page.title }}</a></h1>
         <h2 class="headline">{{ page.date | date:"%B %-d, %Y" }}</h2>
     </header>
     <section id="post-body">
@@ -13,15 +13,15 @@ archive: true
     </section>
 </article>
 <footer id="post-meta" class="clearfix">
-    <a href="http://twitter.com/{{ site.authorTwitter }}">
-        <img class="avatar" src="{{ site.baseurl }}assets/images/avatar.png">
+    <a href="https://github.com/{{ site.authorGithub }}">
+        <img class="avatar" src="{{ site.authorAvator }}">
         <div>
             <span class="dark">{{ site.author }}</span>
             <span>{{ site.description }}</span>
         </div>
     </a>
 
-    <section id="sharing">
+    <section id="sharing" style="display:none;">
         {% include share.html %}
     </section>
 </footer>

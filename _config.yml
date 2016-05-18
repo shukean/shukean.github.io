@@ -16,7 +16,8 @@ disqus_shortname: ''
 # Details for the RSS feed generator
 url:            'http://yukeyong.com'
 author:         'Keyong Yu'
-authorTwitter:  ''
+authorGithub:   'shukean'
+authorAvator:   'https://avatars3.githubusercontent.com/u/4089620?v=3&s=460'
 
 permalink:       /:year/:title/
 
