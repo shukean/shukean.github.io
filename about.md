@@ -1,9 +1,9 @@
 ---
+layout: page
 title: About
-permalink: about/
-profile: true
+permalink: /about/
 ---
 
-This is a static page. It could be an 'about page' if you'd like.
+只缘身在此山中   
 
-{% include footer.html %}
+Working at beequick.cn
