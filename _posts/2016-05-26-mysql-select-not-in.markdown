@@ -1,7 +1,7 @@
 ---
 title:  "Mysql查询使用not in时没有数据的问题"
 date:   2016-05-26 09:33:00
-description: Thriller Comedy Horror
+description: 
 ---
 
 在一次查询时发现，使用in与not in的得到的数据不是全集。
