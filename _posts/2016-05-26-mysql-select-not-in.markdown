@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  "Mysql查询使用not in时没有数据的问题"
 date:   2016-05-26 09:33:00 +0800
 description: 

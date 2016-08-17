@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  "Centos swap 命令"
 date:   2016-05-23 10:18:00 +0800
 description: 
