@@ -15,18 +15,18 @@ categories: "c++ const pointer"
 3. `const int * const val;`  
 
 
-1. 常量指针, 即指针 val 指向的内容不可变.  
+第一种: 常量指针, 即指针 val 指向的内容不可变.  
 `int i=10; `  
 `int j=20;`  
 `const int *p= &i;`  
 `*p = 20; //error`  
 `p=&j; //right`  
 
-2. 指针常量, 即指针 val 本身地址不可变.  
+第二种: 指针常量, 即指针 val 本身地址不可变.  
 `int i=10;`  
 `int j=20;`  
 `int * const p=&1;`  
 `p=&j;  //error`  
 `*p=5; //right`  
 
-3. 是1和2的综合, 即指针 val 本身地址不可变, 同时指向的内容也不可变.  
+第三种是1和2的综合, 即指针 val 本身地址不可变, 同时指向的内容也不可变.  
