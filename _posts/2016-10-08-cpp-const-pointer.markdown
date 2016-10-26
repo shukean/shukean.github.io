@@ -2,7 +2,6 @@
 layout: post  
 title:  "C++ 常量指针 和 指针常量"  
 date:   2016-10-08 15:00:39 +0800  
-categories: "c++ const pointer"  
 ---
 
 ### const 修饰普通变量以下写法是等价的:  
